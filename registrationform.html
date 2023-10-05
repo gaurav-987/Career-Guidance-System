@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="registrationform.css">
+  <title>Career Guidance System - Student Registration</title>
+</head>
+<body>
+
+  <div class="container">
+    <form class="registration-form">
+      <div class="header">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS86IJ7mLztKF0tfX9632ppIKdyAble7K-Lrg&usqp=CAU" alt="Logo" class="Logo">
+        <h2>Career Guidance System - Student Registration</h2>
+      </div>
+
+      <!-- Personal Information -->
+      <div class="section">
+        <h3>Personal Information</h3>
+        <div class="form-group">
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" required>
+        </div>
+
+        <div class="form-group">
+          <label for="middleName">Middle Name:</label>
+          <input type="text" id="middleName" name="middleName">
+        </div>
+
+        <div class="form-group">
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" required>
+        </div>
+
+        <div class="form-group">
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" required>
+        </div>
+
+        <div class="form-group">
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="section">
+        <h3>Contact Information</h3>
+        <div class="form-group">
+          <label for="email">Email ID:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="mobileNumber">Mobile Number:</label>
+          <input type="tel" id="mobileNumber" name="mobileNumber" required>
+        </div>
+      </div>
+
+      <!-- Educational Background -->
+      <div class="section">
+        <h3>Educational Background</h3>
+        <div class="form-group">
+          <label for="schoolName">School Name:</label>
+          <input type="text" id="schoolName" name="schoolName" required>
+        </div>
+
+        <div class="form-group">
+          <label for="graduationYear">Year of Graduation:</label>
+          <input type="text" id="graduationYear" name="graduationYear" required>
+        </div>
+
+        <div class="form-group">
+          <label for="major">Major/Stream:</label>
+          <input type="text" id="major" name="major" required>
+        </div>
+      </div>
+
+      <!-- Career Preferences -->
+      <div class="section">
+        <h3>Career Preferences</h3>
+        <div class="form-group">
+          <label for="preferredField">Preferred Field of Study:</label>
+          <input type="text" id="preferredField" name="preferredField" required>
+        </div>
+
+        <div class="form-group">
+          <label for="careerGoals">Career Goals:</label>
+          <textarea id="careerGoals" name="careerGoals" rows="4" required></textarea>
+        </div>
+      </div>
+
+      <!-- Submit Button -->
+      <div class="form-group">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
